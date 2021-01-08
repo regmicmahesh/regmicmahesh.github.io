@@ -18,6 +18,7 @@ button.onclick = function() {
 		theme = "dark";
 		this.style.backgroundColor = "black";
 		this.style.color = "white";
+		this.innerHTML = "Light Theme";
 		this.style.border = "1px solid white";
 		enableDarkTheme();
 	}
@@ -26,6 +27,7 @@ button.onclick = function() {
 		this.style.color = "black";
 		this.style.border = "1px solid black";
 		theme = "light";
+		this.innerHTML = "Dark Theme";
 		enableLightTheme();
 	}
 }
